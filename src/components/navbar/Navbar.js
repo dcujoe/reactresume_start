@@ -1,5 +1,5 @@
 import React from 'react';
-//import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
@@ -10,7 +10,7 @@ export default function Navbar() {
 					<div className='container'>
 						<div className='nav-wrapper'>
 							<Link to='/' className='brand-logo'>
-								My Resume
+								Daniel Agbenyega
 							</Link>
 							<Link to='/' data-target='side-nav' className='sidenav-trigger'>
 								<i className='material-icons'>menu</i>

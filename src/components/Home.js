@@ -12,6 +12,7 @@ export default function Home() {
    
 
     return (
+        <>
         <section>
            <Navbar />
            <div className="container">
@@ -32,6 +33,7 @@ export default function Home() {
                </div>
            </div>
         </section>
+        </>
     );
    
 }
