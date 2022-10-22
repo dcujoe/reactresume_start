@@ -16,9 +16,12 @@ export default function Home() {
            <Navbar />
            <div className="container">
                <div className="row">
+                   /* profile is taking one side of the row representing m3 from Bootstrap*/
                    <div className="col s12 m3">
                        <Profile />
                    </div>
+
+                   /* The other section contains other parts of the row m9. Right side of the screen */
                    <div className="col s12 m9">
                        <About />
                        <Skills />
