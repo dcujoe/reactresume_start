@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import './App.css'
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
@@ -10,19 +11,21 @@ import Portfolios from './components/pages/portfolios/Portfolios';
 
 
 function App() {
+ 
   return(
-   <>
-   <Router> 
-   <Routes>
-   <Route path="/" element={<Home />}></Route>
-   <Route path="experiences" element={<Experiences />}></Route>
-    <Route path="education" component={Education} />
-    <Route path="skills" component={Skills} />
-    <Route path="portfolios" component={Portfolios} />
+  
+    <Router> 
+    <Routes>
+       <Route path="/" element={<Home />}></Route>
+       <Route path="experiences" element={<Experiences />}></Route>
+       <Route path="education" component={Education} />
+       <Route path="skills" component={Skills} />
+       <Route path="portfolios" component={Portfolios} />
    </Routes>
    </Router>
-   </>
+ 
   )
+ 
 }
 
 export default App;

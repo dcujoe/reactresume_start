@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
 	
 		return (
-			<>
+		<div>
 				<nav className='light-blue darken-4'>
 					<div className='container'>
 						<div className='nav-wrapper'>
@@ -72,7 +72,7 @@ export default function Navbar() {
 						</Link>
 					</li>
 				</ul>
-			</>
+                </div>
 		);
 	
 }

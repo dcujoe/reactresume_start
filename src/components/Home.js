@@ -11,8 +11,8 @@ import Skills from './pages/skills/Skills';
 export default function Home() {
    
 
-    return (
-        <>
+    return(
+      
         <section>
            <Navbar />
            <div className="container">
@@ -33,7 +33,7 @@ export default function Home() {
                </div>
            </div>
         </section>
-        </>
+        
     );
    
 }
