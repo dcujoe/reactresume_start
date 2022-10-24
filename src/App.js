@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css'
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Skills from './components/pages/skills/Skills';
 import Experiences from './components/pages/experiences/Experiences';
@@ -11,10 +11,9 @@ import Portfolios from './components/pages/portfolios/Portfolios';
 
 
 function App() {
- 
-  return(
   
-    <BrowserRouter> 
+  return(
+    <Router> 
     <Routes>
        <Route exact path="/" element={<Home />} />
        <Route path="experiences" element={<Experiences />} />
@@ -22,10 +21,10 @@ function App() {
        <Route path="skills" component={<Skills />} />
        <Route path="portfolios" component={<Portfolios />} />
    </Routes>
-   </BrowserRouter>
+   </Router>
  
   )
- 
-}
+  }
+
 
 export default App;
