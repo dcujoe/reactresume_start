@@ -11,7 +11,7 @@ import Portfolios from './components/pages/portfolios/Portfolios';
 
 
 function App() {
-  
+  render() {
   return(
     <Router> 
     <Routes>
@@ -24,6 +24,7 @@ function App() {
    </Router>
  
   )
+  }
   }
 
 
